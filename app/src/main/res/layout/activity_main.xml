@@ -16,7 +16,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:textColor="@color/purple_500"
         android:textSize="32dp" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_marginBottom="16dp"
         android:text="0"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:textColor="@color/purple_500"
         android:textSize="64dp" />
 
     <LinearLayout

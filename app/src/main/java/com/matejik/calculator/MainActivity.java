@@ -83,7 +83,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (buttonText.equals("C")){
             inputList = new LinkedList<>();
         } else if (buttonText.equals("◄")){
-            inputList.removeLast();
+            if (inputList.size() != 0)
+                inputList.removeLast();
         } else if (buttonText.equals("(") || buttonText.equals(")")) {
             inputList.add(buttonText);
         } else if (isDoubleOperator(buttonText) || isSingleOperator(buttonText)) {
